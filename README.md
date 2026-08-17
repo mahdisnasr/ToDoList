@@ -1,18 +1,163 @@
-# React + Vite
+# ✅ React ToDo List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive ToDo List application built with **React**.
 
-Currently, two official plugins are available:
+This project was created to practice core React concepts such as state management, reusable components, Context API, Reducers, form handling, LocalStorage, and user interactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* ➕ Add new tasks
+* ✏️ Edit tasks
+* 🗑️ Delete tasks
+* ✅ Mark tasks as completed
+* 🔍 Search tasks
+* 🏷️ Categorize tasks
+* 🔎 Filter tasks
+* 💾 Persist tasks using LocalStorage
+* 📝 Form validation
+* 📭 Empty state
+* 📱 Responsive design
+* ⚡ Interactive user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+* **React**
+* **JavaScript**
+* **CSS**
+* **React Icons**
+* **LocalStorage**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚛️ React Concepts Practiced
 
-##version 1.0
+This project was mainly built as a learning project to practice important React concepts.
+
+### State Management
+
+* `useState`
+* `useReducer`
+
+### Side Effects & References
+
+* `useEffect`
+* `useRef`
+
+### Context & Global State
+
+* `useContext`
+* Context API
+* Combining `useReducer` with `useContext`
+
+### Component Concepts
+
+* Props
+* Reusable components
+* Component composition
+* React Fragments
+
+### Other Concepts
+
+* Form handling
+* Form validation
+* Conditional rendering
+* Event handling
+* LocalStorage
+* Dynamic filtering and searching
+
+## 📁 Project Structure
+
+```text id="kq5z5e"
+react-todo-list/
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── AddTask/
+│   │   ├── Task/
+│   │   ├── TaskList/
+│   │   ├── Search/
+│   │   └── Filter/
+│   │
+│   ├── context/
+│   │   └── ...
+│   │
+│   ├── reducers/
+│   │   └── ...
+│   │
+│   ├── App.jsx
+│   ├── index.jsx
+│   └── ...
+│
+├── package.json
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash id="1q8d8x"
+git clone <your-repository-url>
+cd react-todo-list
+```
+
+### 2. Install dependencies
+
+```bash id="a3v6k2"
+npm install
+```
+
+### 3. Start the development server
+
+```bash id="6m0x7p"
+npm start
+```
+
+The application will be available at:
+
+```text id="1j8b5k"
+http://localhost:3000
+```
+
+## 💾 LocalStorage
+
+Tasks are stored in the browser's **LocalStorage**, allowing the application to preserve tasks even after refreshing or closing the browser.
+
+## 🎯 Project Goals
+
+The main goal of this project was to strengthen practical React skills by building a real interactive application instead of only working with isolated examples.
+
+Through this project, I practiced:
+
+* Managing local and global state
+* Building reusable React components
+* Handling complex state with `useReducer`
+* Sharing state using Context API
+* Working with browser LocalStorage
+* Handling forms and validation
+* Implementing search and filtering
+* Creating interactive UI states
+* Organizing a React application into reusable modules
+
+## 🔮 Future Improvements
+
+Possible improvements for future versions include:
+
+* 🌙 Dark mode
+* 📅 Task deadlines
+* 🔔 Notifications
+* 🎨 Improved UI/UX
+* 🔐 User authentication
+* ☁️ Cloud data synchronization
+* 🧪 Automated testing
+* 📊 Task statistics
+* 🖱️ Drag & drop task ordering
+
+## 👩‍💻 Author
+
+**Mahdis Nasr**
+
+Computer Engineering Student & Front-End Developer
+
+---
+
+⭐ If you like this project, consider giving the repository a star!
